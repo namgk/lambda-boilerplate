@@ -1,5 +1,4 @@
 import { expect } from 'chai';
-import handler from '../index';
 import testData from './testData';
 const index = require('../dist/main');
 

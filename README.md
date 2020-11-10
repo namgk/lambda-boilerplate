@@ -6,6 +6,11 @@ Configure aws cli with this user
 
     aws configure
 
+Create a lambda function and update the aws-push.sh with the function name and region
+
+    cp aws-push.sh aws-push.local.sh
+    vi aws-push.local.sh
+
 Build and upload code
 
-    yarn && yarn build && ./aws-push.sh
+    yarn upload

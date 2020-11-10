@@ -1,4 +1,3 @@
 'use strict';
-const index = require('./dist/main');
 
-exports.handler = index.handler;
+exports.handler = require('./dist/main').asyncHandler;
